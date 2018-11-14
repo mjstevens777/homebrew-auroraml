@@ -19,5 +19,5 @@ aws s3 cp --acl public-read pcl-1.8.1_3.high_sierra.bottle.1.tar.gz s3://auroras
 brew install --debug --verbose --build-bottle mjstevens777/auroraml/pdal
 brew bottle --verbose pdal
 # Update pdal.rb with new sha256 printed at the end of the bottle command
-aws s3 cp --acl public-read pdal*.high_sierra.bottle.tar.gz s3://aurorasolar-envision/homebrew/pdal-1.7.2.rc1.high_sierra.bottle.1.tar.gz
+aws s3 cp --acl public-read pdal*.mojave.bottle.tar.gz s3://aurorasolar-envision/homebrew/pdal-1.8.0.mojave.bottle.1.tar.gz
 ```

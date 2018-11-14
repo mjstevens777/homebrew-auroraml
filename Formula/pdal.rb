@@ -9,7 +9,7 @@ class Pdal < Formula
     root_url "https://s3.amazonaws.com/aurorasolar-envision/homebrew"
     # Do not use the bottle from the original package
     rebuild 1
-    sha256 "5028bf4fb5ccdbbcaf3b09894749130dc7f78232376c61cb7bb6bcf2887d68d8" => :high_sierra
+    sha256 "bd3db1313841359c78bc1b9faa2ce5a1ee6150054d28754a35c458385afae9d9" => :mojave
   end
 
   depends_on "cmake" => :build
