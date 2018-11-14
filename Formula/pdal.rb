@@ -1,16 +1,15 @@
 class Pdal < Formula
   desc "Point data abstraction library"
   homepage "https://www.pdal.io/"
-  # Change this back to PDAL/PDAL after 1.7.3 is released
-  url "https://github.com/mjstevens777/PDAL/archive/1.7.2.rc1.tar.gz"
-  sha256 "00d05e037a9c15a12c2bd0b51e3faec952b8a93ef20945b5ce617b2273b20ec2"
+  url "https://github.com/PDAL/PDAL/archive/1.8.0.tar.gz"
+  sha256 "ef3a32c06865383feac46fd7eb7491f034cad6b0b246b3c917271ae0c8f25b69"
   head "https://github.com/PDAL/PDAL.git"
 
   bottle do
     root_url "https://s3.amazonaws.com/aurorasolar-envision/homebrew"
     # Do not use the bottle from the original package
     rebuild 1
-    sha256 "3fa1a7fdfb022d02ff5ec58901eca161314413179e72c65022aa2d7e1b095342" => :high_sierra
+    sha256 "5028bf4fb5ccdbbcaf3b09894749130dc7f78232376c61cb7bb6bcf2887d68d8" => :high_sierra
   end
 
   depends_on "cmake" => :build
