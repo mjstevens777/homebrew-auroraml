@@ -15,6 +15,7 @@ class Pcl < Formula
     # Do not use the bottle from the original package
     rebuild 1
     sha256 "c8093d129aa04168926ca2ca42de26bdd49a45430988f6e49feb31bf703c51b0" => :high_sierra
+    sha256 "9f1cfaffa5b59d086d58d83e09c02d8926c7006698ab82668a5e8db00f08d4e7" => :mojave
   end
 
   depends_on "cmake" => :build
